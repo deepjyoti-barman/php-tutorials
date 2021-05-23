@@ -1,0 +1,4 @@
+Here are the important extensions for VSCode that you would need for PHP Development:
+-------------------------------------------------------------------------------------
+- PHP Intelephense 1.7.1 (Ben Mewburn)
+- PHP Extension Pack 1.0.2 (Felix Becker)

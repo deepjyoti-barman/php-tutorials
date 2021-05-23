@@ -1,0 +1,12 @@
+Turning on PHP Errors on the Web:
+---------------------------------
+Displaying blank page is mostly caused by some PHP error in the code. If error reporting is on (displaying PHP errors is enabled) then it is very easy to find the error and solve the problem. Temporary displaying of PHP errors is important and helpful for solving different problems on the website. For example:
+- Blank page will be displayed instead of content on your site.
+- 500 Error message will be displayed.
+
+You can set PHP error reporting on in 'php.ini' file (in case you have access to this file). Set the following lines:
+error_reporting  =  E_ALL
+display_errors = On
+
+Path to 'php.ini' file in Mac:
+/Applications/XAMPP/xamppfiles/etc/php.ini
