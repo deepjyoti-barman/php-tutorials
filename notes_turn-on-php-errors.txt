@@ -5,8 +5,12 @@ Displaying blank page is mostly caused by some PHP error in the code. If error r
 - 500 Error message will be displayed.
 
 You can set PHP error reporting on in 'php.ini' file (in case you have access to this file). Set the following lines:
-error_reporting  =  E_ALL
+error_reporting = E_ALL
 display_errors = On
 
-Path to 'php.ini' file in Mac:
+Path to 'php.ini' file in Mac (XAMPP):
 /Applications/XAMPP/xamppfiles/etc/php.ini
+
+Path to 'php.ini' file in Mac (MAMP):
+/Applications/MAMP/conf/php8.0.8/php.ini
+/Applications/MAMP/bin/php/php8.0.8/conf/php.ini
